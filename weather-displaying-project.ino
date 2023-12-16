@@ -7,12 +7,12 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Put your WiFi Credentials here
-const char* ssid = "test";
-const char* password = "testadmin";
+const char* ssid = "your_wifi_ssid";
+const char* password = "your_wifi_password";
 
 // URL Endpoint for the API
 String URL = "http://api.openweathermap.org/data/2.5/weather?";
-String ApiKey = "09befa376796f00e014a594633f90238";
+String ApiKey = "your_openweathermap_api_key";
 
 // Replace with your location Credentials
 String lat = "26.837726148229244";
